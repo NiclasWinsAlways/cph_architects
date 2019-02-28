@@ -61,4 +61,5 @@ header h1 {
       }
       .grid-container1 {
           display: grid;  
+          padding-bottom: 10px;
       }
