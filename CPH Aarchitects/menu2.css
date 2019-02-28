@@ -49,9 +49,9 @@ header h1 {
         display: block;
       }
 
-      .photo {
+       main img {
          height: 250px;
-         width: 250px;
+         width: 360px;
       }
 
       main h1 {
