@@ -149,6 +149,7 @@ p {
         margin: 0;
         height: 256px;
         width: 184px;
+        flex-shrink: 0;
     }
 
     main {
