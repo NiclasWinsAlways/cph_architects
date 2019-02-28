@@ -109,7 +109,12 @@ header h1 {
             display: flex;
             grid-template-columns: 1fr 2fr;
         } 
-    
+        main img {
+            margin: 0;
+            height: 336px;
+            width: 238px;
+            flex-shrink: 0;
+        }
 
 
 
