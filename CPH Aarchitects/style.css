@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Arial Narrow', bold: 36px;
+    font-family: Arial: 36px;
 }
 
 h1 {
@@ -28,7 +28,7 @@ p {
     margin: 7px;
 }
 
-main article {
+.cards {
     background-color: #92b8b7;
     margin: 10px 0px;
     display: grid;
