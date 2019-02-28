@@ -49,6 +49,14 @@ header h1 {
         display: block;
       }
 
+      .first-pic {
+          width: 100%;
+      }
+
+      .first-txt {
+          margin: 0 auto;
+      }
+
 
       .Cards {
         background-color: #92b8b7;
@@ -57,9 +65,42 @@ header h1 {
       }
 
       .picturebox2 {
-          width: 100%;
+          display: flex;
+          width: 90%;
+          margin: 0 auto;
       }
       .grid-container1 {
           display: grid;  
           padding-bottom: 10px;
       }
+
+      footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        background-color: #707070;
+        padding: 23px;
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+        font-family: Verdana;
+        color: #F1EBEB;
+        margin: 0px;
+    }
+    .social {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    
+    footer p {
+        grid-column: 1 / 3;
+        align-self: center;
+        justify-self: center;
+        font-size: 12px;
+    }
+
+    .ins {
+        margin-left: 10px;
+       }
+
