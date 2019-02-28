@@ -136,6 +136,7 @@ p {
 
     main h1 {
         left: 50%;
+        position: unset;
 
     }
 
