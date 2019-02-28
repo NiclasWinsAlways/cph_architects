@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    font-family: Arial: 36px;
+    font-family: Arial 36px;
 }
 
 h1 {
@@ -130,7 +130,7 @@ p {
       .Cards {
         background-color: #92b8b7;
         margin: 10px 0px;
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr 2fr;
     } 
 
@@ -140,4 +140,20 @@ p {
 
     }
 
+    .cards h2 {
+        position: unset;
+        left: 50%;
+    }
 
+    article img {
+        margin: 0;
+        height: 256px;
+        width: 184px;
+    }
+
+    main {
+        max-width: 672px;
+        margin: 0 auto;
+    }
+
+}
