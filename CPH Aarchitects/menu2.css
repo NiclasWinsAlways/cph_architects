@@ -85,6 +85,31 @@ header h1 {
 
     @media only screen and (min-width: 768px) {
 
+        .dropdown-content, .dropdown:hover .dropdown-content {
+            display: flex;
+            position: static;
+            background-color: transparent;
+            padding-left: 20px;
+            z-index: 1;
+            min-width: 50%;
+          }
+    
+          .dropdown-content a {
+              color: #ffffff
+    
+          }
+    
+          .mobilemenu {
+              display: none;
+          }
+    
+          .Cards {
+            background-color: #92b8b7;
+            margin: 10px 0px;
+            display: flex;
+            grid-template-columns: 1fr 2fr;
+        } 
+    
 
 
 
@@ -105,5 +130,4 @@ header h1 {
 
 
 
-        
     }
