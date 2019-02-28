@@ -50,3 +50,8 @@ header h1 {
          height: 250px;
          width: 250px;
       }
+
+      main h1 {
+          font-size: 16px;
+          font-family: Verdana,12px;
+      }
