@@ -32,7 +32,7 @@ p {
     background-color: #92b8b7;
     margin: 10px 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 article img {
     margin: 7px;
