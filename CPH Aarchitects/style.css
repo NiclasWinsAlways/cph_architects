@@ -109,7 +109,7 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-    .dropdown-content {
+    .dropdown-content, .dropdown:hover .dropdown-content {
         display: flex;
         position: static;
         background-color: transparent;
@@ -156,9 +156,4 @@ p {
         max-width: 672px;
         margin: 0 auto;
     }
-
-    .dropdown:hover .dropdown-content {
-        display: none;
-       }    
-
 }
