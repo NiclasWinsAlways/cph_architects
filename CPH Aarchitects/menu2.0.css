@@ -48,3 +48,17 @@ header h1 {
         text-decoration: none;
         display: block;
       }
+
+
+      .Cards {
+        background-color: #92b8b7;
+        display: block;
+        padding: 30px;
+      }
+
+      .picturebox2 {
+          width: 100%;
+      }
+      .grid-container1 {
+          display: grid;  
+      }
