@@ -112,14 +112,26 @@ p {
     .dropdown-content {
         display: flex;
         position: static;
-        background-color: none;
+        background-color: transparent;
         padding-left: 20px;
         z-index: 1;
         min-width: 50%;
       }
 
+      .dropdown-content a {
+          color: #ffffff
 
+      }
 
+      .mobilemenu {
+          display: none;
+      }
+
+      .Cards {
+        background-color: #92b8b7;
+        margin: 10px 0px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
 
 
 
