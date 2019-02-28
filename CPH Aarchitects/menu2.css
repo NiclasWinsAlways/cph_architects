@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    font-family: Arial: 36px;
+    font-family: Arial 36px;
 }
 
 .mobilemenu {
@@ -49,10 +49,7 @@ header h1 {
         display: block;
       }
 
-       main img {
-         height: 250px;
-         width: 360px;
-      }
+
 
       main h1 {
         font-family: 'verdana regular';
@@ -111,10 +108,31 @@ header h1 {
         } 
         main img {
             margin: 0;
-            height: 336px;
-            width: 238px;
             flex-shrink: 0;
         }
+        .feature {
+        max-width: 666px;
+        margin: 0 auto;
+        }
+
+        .feature img {
+            float: right;
+            width: 50%;
+        }
+
+        .main-article img {
+         width: 100%;
+        }
+
+        .main-article p {
+            max-width: 671px;
+            margin: 20px auto;
+        }
+        
+
+
+        }
+
 
 
 
