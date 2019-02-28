@@ -132,21 +132,11 @@ p {
         margin: 10px 0px;
         display: grid;
         grid-template-columns: 1fr 2fr;
+    } 
 
+    main h1 {
+        left: 50%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-} 
+    }
 
 
