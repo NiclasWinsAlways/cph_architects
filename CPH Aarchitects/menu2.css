@@ -55,3 +55,17 @@ header h1 {
           font-size: 15px;
           font-family: Verdana,26px;
       }
+
+      footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        background-color: #707070;
+        padding: 23px;
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+        font-family: Verdana;
+        color: #F1EBEB;
+        margin: 0px;
+    }
