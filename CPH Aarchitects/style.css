@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Arial Narrow', bold: 46px;
+    font-family: 'Arial Narrow', bold: 36px;
 }
 
 h1 {
@@ -26,6 +26,17 @@ h1 {
 
 p {
     margin: 7px;
+}
+
+main article {
+    background-color: #92b8b7;
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+section img {
+    margin: 15px;
 }
 
 .mobilemenu {
