@@ -157,4 +157,8 @@ p {
         margin: 0 auto;
     }
 
+    .dropdown:hover .dropdown-content {
+        display: none;
+       }    
+
 }
