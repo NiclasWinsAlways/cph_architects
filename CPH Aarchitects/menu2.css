@@ -52,8 +52,8 @@ header h1 {
       }
 
       main h1 {
-          font-size: 15px;
-          font-family: Verdana,26px;
+        font-family: 'verdana regular';
+        font-size: 16px;
       }
 
       footer{
