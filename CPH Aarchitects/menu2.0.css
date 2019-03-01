@@ -128,7 +128,40 @@ header h1 {
     
           .Cards {
             background-color: #92b8b7;
-            margin: 10px 0px;
             display: flex;
             grid-template-columns: 1fr 2fr;
+            padding: 50px;
+
+          }
+          .grid-container1 {
+
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .grid-container1:nth-child(4) img {
+        grid-column-start: 2;
+        grid-column-end: 3;            
+
+        }
+        .grid-container1:nth-child(4) .Cards {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            
+    
+            }
+
+            .grid-container1:nth-child(5) {
+                grid-template-columns: 1fr;
+            }
+
+            .first-txt {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            }
+
+
+          
+        }
 
