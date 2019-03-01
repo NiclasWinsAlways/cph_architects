@@ -35,8 +35,8 @@ p {
     grid-template-columns: 1fr 2fr;
 }
 article img {
-    margin: 7px;
     height: 150px;
+
 }
 
 section img {
@@ -150,6 +150,7 @@ p {
         height: 256px;
         width: 184px;
         flex-shrink: 0;
+      
     }
 
     main {
