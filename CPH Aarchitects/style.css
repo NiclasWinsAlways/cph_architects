@@ -35,7 +35,8 @@ p {
     grid-template-columns: 1fr 2fr;
 }
 article img {
-    height: 150px;
+    height: 200px;
+    width: 150px;
 
 }
 
